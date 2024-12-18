@@ -7,13 +7,8 @@ import './App.css'
 const App = () => {
   return (
     <Routes>
-      {/* Redirect root to login */}
       <Route path="/" element={<Navigate to="/login" />} />
-      
-      {/* Login route */}
       <Route path="/login" element={<Login />} />
-      
-      {/* Register route */}
       <Route path="/register" element={<Register />} />
     </Routes>
   );
