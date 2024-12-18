@@ -32,7 +32,7 @@ const Register = () => {
 
   return (
     <div style={{ width: 450, margin: "50px auto", padding: "30px 50px", background: "#fff" }}>
-      <h2>Project</h2>
+      <h2>Project X</h2>
       <Form
         form={form}
         name="registerForm"
